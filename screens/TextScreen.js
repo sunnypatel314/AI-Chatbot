@@ -16,7 +16,7 @@ const TextScreen = ({ navigation, route }) => {
   }, []);
 
   const [preMessage, setPreMessage] = useState(
-    `Give me an interesting fact about ${name}`
+    `give me an interesting fact about ${name}`
   );
 
   const apiKey = API_KEY;

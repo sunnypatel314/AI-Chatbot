@@ -4,31 +4,30 @@
     "slug": "trial1-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/machineLearning.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/machineLearning.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/machineLearning.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tidepods707.trial1reactnative"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/computerHardware.png"
     },
     "extra": {
       "eas": {
-        "projectId": "28dc3429-68df-4743-95e7-3f462d6306fa"
+        "projectId": "e167e3b9-e97b-47dc-9029-c048c4e72cbd"
       }
     }
   }

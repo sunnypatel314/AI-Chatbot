@@ -5,6 +5,7 @@ const Header = () => {
   const screenHeight = Dimensions.get("window").height;
   const screenWidth = Dimensions.get("window").width;
   const dynamicFontSize = (screenHeight + screenWidth) * 40 ** -1;
+
   return (
     <View style={{ flex: 0.1 }}>
       <View style={styles.container}>

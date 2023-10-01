@@ -23,13 +23,13 @@ const PickSubject = ({ navigation }) => {
   const machineLearning = require("../../assets/machineLearning.jpg");
   const physics = require("../../assets/physics.jpg");
   const subjects = [
-    "Law",
-    "Physics",
-    "Applied Mathematics",
+    "Applied Math",
+    "Computer Hardware",
     "Economy",
     "Fine Arts",
-    "Computer Hardware",
+    "Law",
     "Machine Learning",
+    "Physics",
   ];
   const imageList = [
     appliedMath,
